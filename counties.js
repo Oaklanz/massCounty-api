@@ -56,4 +56,5 @@ const counties = [{
   seat: 'Worcester',
   site: 'wachusett mountain',
 }]
+
 module.exports = counties
