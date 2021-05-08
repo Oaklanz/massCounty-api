@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+     "lint": "npm run lint:pug && npm run lint:eslint",
+    "lint:pug": "pug-lint .",
+    "lint:eslint": "eslint --format codeframe ."
+  
   },
   "repository": {
     "type": "git",
@@ -19,9 +23,12 @@
   "homepage": "https://github.com/Oaklanz/massCounty-api#readme",
   "devDependencies": {
     "eslint": "^7.25.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "pug-lint": "^2.6.0"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
   }
 }

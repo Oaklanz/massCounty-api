@@ -1,4 +1,4 @@
-const county = [{
+const counties = [{
   name: 'Barnstable',
   seat: 'Barnstable',
   site: 'Pilgrim monument',
@@ -56,4 +56,4 @@ const county = [{
   seat: 'Worcester',
   site: 'wachusett mountain',
 }]
-module.exports = county
+module.exports = counties
