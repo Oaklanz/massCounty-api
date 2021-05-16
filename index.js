@@ -16,6 +16,6 @@ app.all('*', (request, response) => {
   return response.sendstatus(404)
 })
 
-app.listen(1555, () => {
-  console.log('listening on port 1555...')// eslint-disable-line no-console
+app.listen(1559, () => {
+  console.log('listening on port 1559...')// eslint-disable-line no-console
 })

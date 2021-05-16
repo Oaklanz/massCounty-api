@@ -6,10 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-     "lint": "npm run lint:pug && npm run lint:eslint",
+    "lint": "npm run lint:pug && npm run lint:eslint",
     "lint:pug": "pug-lint .",
     "lint:eslint": "eslint --format codeframe ."
-  
   },
   "repository": {
     "type": "git",
